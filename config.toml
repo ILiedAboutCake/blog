@@ -1,0 +1,26 @@
+baseURL = "https://blog.cake.sh/"
+languageCode = "en-us"
+title = "Cake Labs"
+theme = "m10c"
+
+[permalinks]
+  posts = "/:year/:month/:title/"
+
+[params]
+  author = "Cake"
+  description = "All Things Techncial / Twitch / Infosec / Sysadmin in Recovery."
+  avatar = "/global/avatar.png"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/ILiedAboutCake"
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/ILiedAboutCake"
+
+[deployment]
+order = [".png$", ".jpg$", ".gif$", ".svg$"]
+
+  [[deployment.targets]]
+  name = "S3"
+  URL = "s3://blog.cake.sh?region=us-east-1"
