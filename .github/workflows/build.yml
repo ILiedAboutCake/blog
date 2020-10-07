@@ -11,7 +11,8 @@ jobs:
     name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+        uses: actions/checkout@v2
+          submodules: 'true'
       - name: Install Hugo
         run: |
           HUGO_DOWNLOAD=hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
