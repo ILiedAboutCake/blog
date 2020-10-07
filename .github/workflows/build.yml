@@ -11,9 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
+      - name: Checkout Theme
+        uses: actions/checkout@v2
         with:
-          submodules: true
+          repository: vaga/hugo-theme-m10c
+          path: themes
       - name: Install Hugo
         run: |
           HUGO_DOWNLOAD=hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
