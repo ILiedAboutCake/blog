@@ -4,7 +4,6 @@ on:
     push:
       branches:
       - master
-  
 
 jobs:
   build:
@@ -12,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         uses: actions/checkout@v2
-          submodules: 'true'
+          submodules: true
       - name: Install Hugo
         run: |
           HUGO_DOWNLOAD=hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
