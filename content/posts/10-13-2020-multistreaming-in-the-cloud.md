@@ -4,7 +4,7 @@ title = "Multistreaming RTMP in the Cloud using OBS, Nginx, and Docker"
 tags = ["Twitch","YouTube","Streaming","AWS","Docker"]
 +++
 
-### First I not your Lawyer, OK?
+### First I am not your Lawyer, OK?
 
 A very important caveat to consider before attempting to multistream is that the [Twitch Affiliate Agreement](https://www.twitch.tv/p/legal/affiliate-agreement/) and partnership contracts* have an exclusivity clause which multistreaming can violate.** Always read what you sign folks.
 
