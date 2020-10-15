@@ -41,7 +41,7 @@ YouTube:
 
 ### The Restreamer + Transcoder - [atcakelabs/rtmp-nginx-docker](https://github.com/atcakelabs/rtmp-nginx-docker)
 
-For our example lets use the the Destiny use-case where we want to stream with the following requirements; 15mbps to YouTube, and 6mbps to Twitch, both at 1080p 60fps.
+For our example lets use the Destiny use-case where we want to stream with the following requirements; 15mbps to YouTube, and 6mbps to Twitch, both at 1080p 60fps.
 
 ![nginx-rtmp diagram](/multistreaming-in-the-cloud/multistreaming.png)
 
