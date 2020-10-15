@@ -1,3 +1,5 @@
+# hugo server -b vscode.homelab.cake.sh --bind 0.0.0.0
+
 baseURL = "https://blog.cake.sh/"
 languageCode = "en-us"
 title = "Cake Labs"
@@ -17,10 +19,3 @@ theme = "m10c"
   [[params.social]]
     name = "twitter"
     url = "https://twitter.com/ILiedAboutCake"
-
-[deployment]
-order = [".png$", ".jpg$", ".gif$", ".svg$"]
-
-  [[deployment.targets]]
-  name = "S3"
-  URL = "s3://blog.cake.sh?region=us-east-1"
