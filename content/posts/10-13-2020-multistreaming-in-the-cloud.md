@@ -20,7 +20,7 @@ Recently the streamer Destiny was departnered from Twitch and was free to stream
 3. An RTMP self-hosted hosted proxy
 
 While using restream.io was the easiest it also seemed to have the most problems. YouTube Studio did not work and at one point two YouTube streams were running in a loop. In addition, transcoding by the hour could get expensive for running daily 7-10 hour streams. Great concept, poor execution at scale.
-Currently the OBS Plugin seems to be the winner for this use case as the streamer has access to a high end HEDT [2 PC streaming setup](https://www.reddit.com/r/Destiny/comments/ced38d/current_build_july_2019/), and high speed symmetric fiber optic internet. While this may work having access to a dedicated $1,900 CPU for encoding and fiber internet, most people do not have access to this. Additionally, there are still instances where utilizing this hardware is not possible such as mobile streaming or staying somewhere with limited bandwidth are which all possibilities, at least maybe again in a post-COVID world.
+Currently the OBS Plugin seems to be the winner for this use case as the streamer has access to a HEDT [2 PC streaming setup](https://www.reddit.com/r/Destiny/comments/ced38d/current_build_july_2019/), and high speed symmetric fiber optic internet. While this may work having access to a dedicated $1,900 CPU for encoding and fiber internet, most people do not have access to this. Additionally, there are still instances where utilizing this hardware is not possible such as mobile streaming or staying somewhere with limited bandwidth are which all possibilities, at least maybe again in a post-COVID world.
 
 ### A Tale of 2? Platforms
 

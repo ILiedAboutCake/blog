@@ -10,7 +10,7 @@ theme = "m10c"
 
 [params]
   author = "Cake"
-  description = "All Things Techncial / Twitch / Infosec / Sysadmin in Recovery."
+  description = "All Things Technical / Twitch / Infosec / Sysadmin in Recovery."
   avatar = "/global/avatar.png"
   [[params.social]]
     name = "github"
