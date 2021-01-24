@@ -36,3 +36,4 @@ jobs:
           key: ${{ secrets.SCP_KEY }}
           source: "public/*"
           target: ${{ secrets.SCP_TARGET }}
+          strip_components: 1
