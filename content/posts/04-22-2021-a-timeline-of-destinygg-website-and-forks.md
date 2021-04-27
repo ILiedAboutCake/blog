@@ -58,7 +58,7 @@ Years ago, I ran a website named OverRustle. This site allowed you to watch vari
 
 At the time, there were some users maintaining and updating the OverRustle code. To keep the project alive I transferred my ownership of all assets to [strims.gg](https://strims.gg). This repo has been under their control since 4/20/2018. At the time of transfer, the Strims maintainers forked a copy of the [chat server](https://github.com/MemeLabs/chat) and [chat GUI](https://github.com/MemeLabs/chat-gui) to create a website completely independent of DGG. All of their code is also available on their [GitHub](https://github.com/MemeLabs).
 
-It should also be noted that OverRustle and the Twitch chat logging OverRustleLogs website were always different independent platforms.
+It should also be noted that OverRustle and the Twitch chat logging OverRustleLogs website were always different independent platforms. Sometimes I still use the OverRustle branding, I think the orange giggly monkey is cute.
 
 Nothing Strims or MemeLabs is affiliated with Destiny or myself.
 
@@ -74,7 +74,7 @@ Historically there has been drama between myself and White regarding the early r
 
 Personally, my problem with the launch was around private communications between White and myself providing support for initial website configuration where I believed the site was being created for White, not Vaush. At this time we have settled our grievances privately and continue our works independent of each other.
 
-After creating a website for Vaush, White has gone on to create other similar websites under the [Whiteleaf](https://www.whitele.af/) brand. These websites are unaffiliated with Destiny and myself. These sites exist independently and in my eyes, become its own incomparable platform with the original Destiny source.
+After creating a website for Vaush, White has gone on to create other similar websites under the [WhiteLe.af](https://www.whitele.af/) brand. These websites are unaffiliated with Destiny and myself and exist independently. From my perspective these sites have become its own incomparable platform with the original Destiny source.
 
 # Other Forks
 
