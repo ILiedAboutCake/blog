@@ -1,14 +1,14 @@
 +++
 date = "2021-04-26"
 title = "A Historical Review of Destiny.gg Development and Unaffiliated Forks"
-tags = ["Omniliberalism"]
+tags = ["Streaming","Omniliberalism","OpenSource"]
 +++
 
 # Preface
 
-I guess I wouldn't be a true Destiny orbiter without needing to release my own manifesto. Over the years both the Destiny.gg codebase and spinoffs have come into the spotlight, usually devolving into typical online debate discourse about stolen code, betrayals, licensing and incorrectly given credit. Being the current maintainer of the original codebase, and handling operations for its largest deployment I want to create a point of reference to the largest misconceptions.
+I guess I wouldn't be a true Destiny orbiter without needing to release my own manifesto. Over the years both the Destiny.gg codebase and new forks have come into the spotlight, usually devolving into typical online debate discourse about stolen code, betrayals, licensing and incorrectly given credit. Being the current maintainer of the original codebase, and handling operations for its largest deployment I want to create a point of reference to the largest misconceptions.
 
-The views expressed here are my own, and may not reflect others involvements in related projects or Destiny himself. There is a reason this is on cake.sh, not Destiny.gg.
+The views expressed here are my own, and may not reflect others' involvements in related projects or Destiny himself. There is a reason this is on cake.sh, not Destiny.gg.
 
 # Understanding GitHub and Open Source Projects
 
@@ -21,13 +21,13 @@ All of the code currently running the Destiny.gg website is available on [GitHub
 
 There is no "global" open source license and different licenses are in use on different projects.
 
-For example. [chat-bot](https://tldrlegal.com/license/mit-license) uses the MIT License, whereas the [website](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US) uses a Creative Commons license.
+For example, chat-bot uses the [MIT](https://tldrlegal.com/license/mit-license) License, whereas the website uses a [Creative Commons](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US) license.
 
 I might be from PA, but I am not going to fake being a lawyer and pretend to understand these licenses at a deep level. Licenses should always be reviewed before cloning or forking open source projects for commercial use.
 
 # So, Who Created The Website?
 
-This one is the most common misconceptions I hear. To me, it's also the funniest. 
+This is the most common misconception I hear. For me personally, it's also the funniest. 
 
 While I am the current maintainer of Destiny.gg, This includes the following duties:
 
@@ -64,7 +64,7 @@ Nothing Strims or MemeLabs is affiliated with Destiny or myself.
 
 # Vaush and Whiteleaf Sites
 
-In early 2019 the first fork of the Destiny website code was launched for a content creator named [Vaush](https://vaush.gg). This project is lead by a developer named WhiteNervosa. Vaush's website was the first to completely replicate the Destiny.gg environment utilizing the chat server, client, and website code.
+In early 2019 the first fork of the Destiny website code was launched for a content creator named [Vaush](https://vaush.gg). This project is led by a developer named WhiteNervosa. Vaush's website was the first to completely replicate the Destiny.gg environment utilizing the chat server, client, and website code.
 
 After creating a website for Vaush, White has gone on to creating other sites based on the Vaush codebase. These spinoff sites use a mix of both MemeLabs and Destiny code.
 
@@ -74,21 +74,21 @@ Historically there has been drama between myself and White regarding the early r
 
 Personally, my problem with the launch was around private communications between White and myself providing support for initial website configuration where I believed the site was being created for White, not Vaush. At this time we have settled our grievances privately and continue our works independent of each other.
 
-Vaush and other [Whiteleaf](https://www.whitele.af/) websites are unaffiliated with Destiny and myself. These sites exist independently and in my eyes, become it's own incompatible platform with the Destiny source.
+After creating a website for Vaush, White has gone on to create other similar websites under the [Whiteleaf](https://www.whitele.af/) brand. These websites are unaffiliated with Destiny and myself. These sites exist independently and in my eyes, become its own incomparable platform with the original Destiny source.
 
 # Other Forks
 
 It's worth noting that there are other websites in existence using the Destiny codebase but I don't think they need to be covered here, as their presence online is barely known. 
 
-Forks will come and go, many before making it to market or being short lived. Sometimes you can find 1/2 configured clones yourself with a [pro Shodan.io account](https://www.shodan.io/search?query=http.favicon.hash:101863432)!
+Forks will come and go, many before making it to market or being short lived. Sometimes you can find 1/2 configured clones yourself with a [pro Shodan.io account](https://www.shodan.io/search?query=http.favicon.hash:101863432) before they are fully configured!
 
 The process for creating your very own Destiny.gg goes a bit like:
 
 1. Clone code from GitHub
 2. Buy a server from [Linode](https://www.linode.com/?r=57232eb9908d0f24a8907e61106c88f475248ac7) #shameless #ad
 3. Stumble through the mess of undocumented and codependent services
-3. Rebrand the website, upload your logo and pick a domain name
-4. Setup your PayPal to send you $$$$
+4. Rebrand the website, upload your logo and pick a domain name
+5. Setup your PayPal with API keys and go brrrrr
 
 # Closing Thoughts
 
